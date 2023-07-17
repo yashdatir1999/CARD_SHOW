@@ -1,0 +1,542 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.page1 {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    background-image: url(https://images.unsplash.com/photo-1520589884715-55ac7417f2ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(15px);
+    position: relative;
+
+}
+
+.card1 {
+    height: 25%;
+    width: 7%;
+    background-image: url(https://as2.ftcdn.net/v2/jpg/03/08/82/83/1000_F_308828318_CTyec5JLvZYNUfSAVT1QjBEcWzE9EO5H.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 5%;
+    left: 46%;
+    animation: acard1 1s linear 1s both;
+}
+
+@keyframes acard1 {
+    0% {
+        top: 5%;
+        left: 46%;
+    }
+
+    100% {
+        top: 65%;
+        left: 2%;
+        background-image: url(  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCW0yZ_H0M1j6JydoTSzNLyUM3-jq_bsMRXPSfkd8Z_H0k_f0Ayq2BzNiS78-dM6wl-oI&usqp=CAU
+        );
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.card2 {
+    height: 25%;
+    width: 7%;
+    background-image: url(https://as2.ftcdn.net/v2/jpg/03/08/82/83/1000_F_308828318_CTyec5JLvZYNUfSAVT1QjBEcWzE9EO5H.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 5%;
+    left: 46%;
+    animation: acard2 1s linear 2s both;
+}
+
+@keyframes acard2 {
+    0% {
+        top: 5%;
+        left: 46%;
+    }
+    50% {
+        top: 65%;
+        left: 6%;
+        background-image: url(https://media.istockphoto.com/id/1306851869/vector/number-card.jpg?s=612x612&w=is&k=20&c=ERatJyk8UaGUo-HspzmYoBSzWczsD706j_JbUeP6IMk=
+);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100% {
+        top: 65%;
+        left: 9.2%;
+        background-image: url(https://media.istockphoto.com/id/1306851869/vector/number-card.jpg?s=612x612&w=is&k=20&c=ERatJyk8UaGUo-HspzmYoBSzWczsD706j_JbUeP6IMk=
+);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.card3 {
+    height: 25%;
+    width: 7%;
+    background-image: url(https://as2.ftcdn.net/v2/jpg/03/08/82/83/1000_F_308828318_CTyec5JLvZYNUfSAVT1QjBEcWzE9EO5H.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 5%;
+    left: 46%;
+    animation: acard3 1s linear 3s both;
+}
+
+@keyframes acard3 {
+    0% {
+        top: 5%;
+        left: 46%;
+    }
+
+    50% {
+        top: 65%;
+        left: 10%;
+        background-image: url(https://media.istockphoto.com/id/480339313/photo/playing-cards-three-of-spades.jpg?s=612x612&w=0&k=20&c=FkCiPEdW8jFTXuOr92hB8EHKsEbO5acSTwOoScTn4zw=);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100% {
+        top: 65%;
+        left: 16.5%;
+        background-image: url(https://i.pinimg.com/originals/52/93/7d/52937dfac83dd71e1f9cf9455f3349d9.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.card4 {
+    height: 25%;
+    width: 7%;
+    background-image: url(https://as2.ftcdn.net/v2/jpg/03/08/82/83/1000_F_308828318_CTyec5JLvZYNUfSAVT1QjBEcWzE9EO5H.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 5%;
+    left: 46%;
+    animation: acard4 1s linear 4s both;
+}
+
+@keyframes acard4 {
+    0% {
+        top: 5%;
+        left: 46%;
+    }
+
+    50% {
+        top: 65%;
+        left: 14%;
+        background-image: url(https://cdn.pixabay.com/photo/2015/08/11/11/56/spades-884160_960_720.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100% {
+        top: 65%;
+        left: 23.8%;
+        background-image: url(https://cdn.pixabay.com/photo/2015/08/11/11/56/spades-884160_960_720.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.card5 {
+    height: 25%;
+    width: 7%;
+    background-image: url(https://as2.ftcdn.net/v2/jpg/03/08/82/83/1000_F_308828318_CTyec5JLvZYNUfSAVT1QjBEcWzE9EO5H.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 5%;
+    left: 46%;
+    animation: acard5 1s linear 5s both;
+}
+
+@keyframes acard5 {
+    0% {
+        top: 5%;
+        left: 46%;
+    }
+
+    50% {
+        top: 65%;
+        left: 18%;
+        background-image: url(https://simg.nicepng.com/png/small/899-8995895_load-image-into-gallery-viewer-polyantha-playing-cards.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100% {
+        top: 65%;
+        left: 31.1%;
+        background-image: url(https://simg.nicepng.com/png/small/899-8995895_load-image-into-gallery-viewer-polyantha-playing-cards.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.card6 {
+    height: 25%;
+    width: 7%;
+    background-image: url(https://as2.ftcdn.net/v2/jpg/03/08/82/83/1000_F_308828318_CTyec5JLvZYNUfSAVT1QjBEcWzE9EO5H.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 5%;
+    left: 46%;
+    animation: acard6 1s linear 6s both;
+}
+
+@keyframes acard6 {
+    0% {
+        top: 5%;
+        left: 46%;
+    }
+
+    50% {
+        top: 65%;
+        left: 22%;
+        background-image: url(https://thumbs.dreamstime.com/b/playing-card-six-spades-isolated-white-background-132808080.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100% {
+        top: 65%;
+        left: 38.3%;
+        background-image: url(https://thumbs.dreamstime.com/b/playing-card-six-spades-isolated-white-background-132808080.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.card7 {
+    height: 25%;
+    width: 7%;
+    background-image: url(https://as2.ftcdn.net/v2/jpg/03/08/82/83/1000_F_308828318_CTyec5JLvZYNUfSAVT1QjBEcWzE9EO5H.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 5%;
+    left: 46%;
+    animation: acard7 1s linear 7s both;
+}
+
+@keyframes acard7 {
+    0% {
+        top: 5%;
+        left: 46%;
+    }
+
+    50% {
+        top: 65%;
+        left: 26%;
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/07_of_spades.svg/1200px-07_of_spades.svg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100% {
+        top: 65%;
+        left: 45.6%;
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/07_of_spades.svg/1200px-07_of_spades.svg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.card8 {
+    height: 25%;
+    width: 7%;
+    background-image: url(https://as2.ftcdn.net/v2/jpg/03/08/82/83/1000_F_308828318_CTyec5JLvZYNUfSAVT1QjBEcWzE9EO5H.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 5%;
+    left: 46%;
+    animation: acard8 1s linear 8s both;
+}
+
+@keyframes acard8 {
+    0% {
+        top: 5%;
+        left: 46%;
+    }
+
+    50% {
+        top: 65%;
+        left: 30%;
+        background-image: url(https://media.istockphoto.com/id/158580462/photo/playing-card-eight-of-spades.jpg?s=170667a&w=0&k=20&c=fSR5bWu5qgFlGNjQhajlFNQD7QNirlL9Ybfcu1peT8k=);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100% {
+        top: 65%;
+        left: 52.9%;
+        background-image: url(https://media.istockphoto.com/id/158580462/photo/playing-card-eight-of-spades.jpg?s=170667a&w=0&k=20&c=fSR5bWu5qgFlGNjQhajlFNQD7QNirlL9Ybfcu1peT8k=);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.card9 {
+    height: 25%;
+    width: 7%;
+    background-image: url(https://as2.ftcdn.net/v2/jpg/03/08/82/83/1000_F_308828318_CTyec5JLvZYNUfSAVT1QjBEcWzE9EO5H.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 5%;
+    left: 46%;
+    animation: acard9 1s linear 9s both;
+}
+
+@keyframes acard9 {
+    0% {
+        top: 5%;
+        left: 46%;
+    }
+
+    50% {
+        top: 65%;
+        left: 34%;
+        background-image: url(https://www.shutterstock.com/image-vector/nine-spades-card-600w-319883612.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100% {
+        top: 65%;
+        left: 60%;
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/63/9_of_spades.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.card10 {
+    height: 25%;
+    width: 7%;
+    background-image: url(https://as2.ftcdn.net/v2/jpg/03/08/82/83/1000_F_308828318_CTyec5JLvZYNUfSAVT1QjBEcWzE9EO5H.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 5%;
+    left: 46%;
+    animation: acard10 1s linear 10s both;
+}
+
+@keyframes acard10 {
+    0% {
+        top: 5%;
+        left: 46%;
+    }
+
+    50% {
+        top: 65%;
+        left: 38%;
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/07/PLAYING_CARD_TEN_OF_SPADES.svg
+        );
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100% {
+        top: 65%;
+        left: 67.2%;
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Atlas_deck_10_of_spades.svg/360px-Atlas_deck_10_of_spades.svg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+}
+
+.card11 {
+    height: 25%;
+    width: 7%;
+    background-image: url(https://as2.ftcdn.net/v2/jpg/03/08/82/83/1000_F_308828318_CTyec5JLvZYNUfSAVT1QjBEcWzE9EO5H.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border-radius: 10px;
+    top: 5%;
+    left: 46%;
+    animation: acard11 1s linear 11s both;
+}
+
+@keyframes acard11 {
+    0% {
+        top: 5%;
+        left: 46%;
+    }
+
+    50% {
+        top: 65%;
+        left: 46%;
+        background-image: url(https://images.freeimages.com/images/premium/previews/5575/5575907-jack-of-hearts-black.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100% {
+        top: 65%;
+        left: 74.5%;
+        background-image: url(https://images.freeimages.com/images/premium/previews/5575/5575907-jack-of-hearts-black.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.card12 {
+    height: 25%;
+    width: 7%;
+    background-image: url(https://as2.ftcdn.net/v2/jpg/03/08/82/83/1000_F_308828318_CTyec5JLvZYNUfSAVT1QjBEcWzE9EO5H.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 5%;
+    left: 46%;
+    animation: acard12 1s linear 12s both;
+}
+
+@keyframes acard12 {
+    0% {
+        top: 5%;
+        left: 46%;
+    }
+
+    50% {
+        top: 65%;
+        left: 46%;
+        background-image: url(https://media.istockphoto.com/id/165506047/vector/queen-of-hearts-black.jpg?s=170667a&w=0&k=20&c=nFYu5xm-G3NqjAHxAO9tCqm8VNhulnwWkj2hNSGOXNA=);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100% {
+        top: 65%;
+        left: 81.7%;
+        background-image: url(https://media.istockphoto.com/id/165506047/vector/queen-of-hearts-black.jpg?s=170667a&w=0&k=20&c=nFYu5xm-G3NqjAHxAO9tCqm8VNhulnwWkj2hNSGOXNA=);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.card13 {
+    height: 25%;
+    width: 7%;
+    background-image: url(https://as2.ftcdn.net/v2/jpg/03/08/82/83/1000_F_308828318_CTyec5JLvZYNUfSAVT1QjBEcWzE9EO5H.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 5%;
+    left: 46%;
+    animation: acard13 1s linear 13s both;
+}
+
+@keyframes acard13 {
+    0% {
+        top: 5%;
+        left: 46%;
+    }
+
+    50% {
+        top: 65%;
+        left: 46%;
+        background-image: url(https://i.pinimg.com/564x/ae/50/df/ae50df2ad6e2cce9385f6a8bdf74c547.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100% {
+        top: 65%;
+        left: 89%;
+        background-image: url(https://i.pinimg.com/564x/ae/50/df/ae50df2ad6e2cce9385f6a8bdf74c547.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.card14{
+    height: 25%;
+    width: 7%;
+    background-image: url(https://images.unsplash.com/photo-1556195332-95503f664ced?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=436&q=80);
+    /* background-color: red; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 5%;
+    left: 46%;   
+}
+
